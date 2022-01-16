@@ -1,4 +1,4 @@
-import Presenter from "../../components/pages/AddMeshPage/Presenter";
+import Presenter from '@/components/pages/AddMeshPage/Presenter';
 
 
 const AddMesh = () => {
@@ -8,7 +8,7 @@ const AddMesh = () => {
                 <Presenter/>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default AddMesh
+export default AddMesh;

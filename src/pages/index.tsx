@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
+import {NextPage} from 'next';
 
-export default function Home() {
+const Home: NextPage = () => {
     return (
         <div>
             <Head>
@@ -19,5 +20,7 @@ export default function Home() {
                 </Link>
             </main>
         </div>
-    )
-}
+    );
+};
+
+export default Home;
