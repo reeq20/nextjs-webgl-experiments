@@ -1,4 +1,4 @@
-import MsdfTexture from '@/components/pages/MsdfTexture/Presenter';
+import MsdfTexture from '@/components/pages/MsdfTexturePage/Index';
 import {VFC} from 'react';
 
 const Msdf: VFC = () => {

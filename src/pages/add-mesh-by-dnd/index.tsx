@@ -1,10 +1,10 @@
-import AddMeshPage from '@/components/pages/AddMeshPage/Index';
+import AddMeshByDragAndDrop from '@/components/pages/AddMeshByDndPage/Index';
 
 const AddMesh = () => {
     return (
         <>
             <div className={'w-full h-screen'}>
-                <AddMeshPage />
+                <AddMeshByDragAndDrop/>
             </div>
         </>
     );

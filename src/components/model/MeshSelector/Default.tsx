@@ -1,4 +1,4 @@
-import Presenter from '@/components/pages/AddMeshPage/Presenter';
+import Presenter from '@/components/model/MeshSelector/Presenter';
 import {VFC} from 'react';
 
 const Default: VFC = () => {

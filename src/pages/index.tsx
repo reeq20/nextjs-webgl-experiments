@@ -12,12 +12,10 @@ const Home: NextPage = () => {
             </Head>
 
             <main>
-                <Link href={'/msdf'}>
-                    msdf
-                </Link>
-                <Link href={'/add-mesh'}>
-                    add-mesh
-                </Link>
+
+                <div className={'w-full h-screen flex justify-center items-center'}>
+                    <h2 className={'text-3xl text-bold'}>Next.js react-three-fiber Experiments</h2>
+                </div>
             </main>
         </div>
     );
