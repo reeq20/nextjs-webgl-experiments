@@ -11,8 +11,11 @@ export default function Home() {
             </Head>
 
             <main>
-                <Link href={'./msdf'}>
+                <Link href={'/msdf'}>
                     msdf
+                </Link>
+                <Link href={'/add-mesh'}>
+                    add-mesh
                 </Link>
             </main>
         </div>

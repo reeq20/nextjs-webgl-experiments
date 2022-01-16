@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# jetbrains
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/modules.xml
+.idea/**/Project_Default.xml
+.idea/**/vcs.xml
