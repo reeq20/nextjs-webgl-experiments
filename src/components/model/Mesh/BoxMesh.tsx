@@ -8,11 +8,13 @@ export type MeshArgs = {
     sizes: Vector3Tuple
 }
 
-type BoxProps = {
-    mouseMove: Vector2 | Vector2Props
-} & MeshArgs
+// type BoxProps = {
+//     mouseMove: Vector2 | Vector2Props
+// } & MeshArgs
 
-const BoxMesh: VFC<BoxProps> = ({position, rotation, sizes, mouseMove}) => {
+type BoxProps = MeshArgs;
+
+const BoxMesh: VFC<BoxProps> = ({position, rotation, sizes}) => {
     const refMesh = useRef(null);
     useEffect(() => {
         console.log(refMesh);

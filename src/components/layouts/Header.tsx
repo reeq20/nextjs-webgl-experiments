@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header: VFC = ()=>{
     return(
-        <header>
+        <header className={'fixed top-0 left-0 z-10'}>
             <ul className={'flex'}>
                 <li>
                     <Link href={'/msdf'}>
@@ -26,7 +26,13 @@ const Header: VFC = ()=>{
                         <a className={'mr-4'}>
                             add-mesh-by-dnd
                         </a>
-
+                    </Link>
+                </li>
+                <li>
+                    <Link href={'/sample'}>
+                        <a className={'mr-4'}>
+                            sample
+                        </a>
                     </Link>
                 </li>
             </ul>

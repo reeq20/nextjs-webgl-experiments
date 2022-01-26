@@ -1,10 +1,7 @@
 const Presenter = ()=>{
     return (
-        <div className={'fixed top-0 right-0'}>
+        <div className={'fixed top-0 right-0 z-10'}>
             <ul>
-                <li>
-                    Box
-                </li>
                 <li>
                     Plane
                 </li>
